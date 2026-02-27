@@ -1,9 +1,3 @@
-"""
-Basit token sunucusu — test.html için LiveKit erişim token'ı üretir.
-Kullanım: python token_server.py
-Adres:    http://localhost:8080/token?room=test-room&identity=user-1&language=en
-"""
-
 import os
 import json
 from http.server import HTTPServer, BaseHTTPRequestHandler
